@@ -2,7 +2,10 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:0A0A0A,50:087EE1,100:05E8BA&text=👋%20Hey!%20I'm%20Rakamanda%20Maheswara%20Rao&textBg=false&fontColor=ffffff&fontSize=40&fontAlignY=35&desc=%20Computer%20Science%20Student%20%7C%20Open-Source%20Enthusiast%20%7C%20Lifelong%20Learner&section=header&animation=fadeIn&descAlignY=52" />
 </p>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=05E8BA&center=true&vCenter=true&width=850&lines=Computer+Science+Student+🇮🇳;Android+%26+Flutter+Developer;Open-Source+Contributor;Learning+Kotlin+Multiplatform;Building+Projects+That+Matter+🚀" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=05E8BA&center=true&vCenter=true&width=850&lines=Computer+Science+Student+%F0%9F%87%AE%F0%9F%87%B3;Android+%26+Flutter+Developer;Open-Source+Contributor;Learning+Kotlin+Multiplatform;Building+Projects+That+Matter+%F0%9F%9A%80"
+    alt="Typing SVG"
+  />
 </p>
 
 <p align="center">
@@ -101,11 +104,12 @@ I'm a passionate **Computer Science student** from **India 🇮🇳** with a kee
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=maheswara660&show_icons=true&theme=github_dark&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=maheswara660&layout=compact&theme=github_dark&hide_border=true" />
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Maheswara660&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" />
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Maheswara660&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
 </p>
+
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=maheswara660&theme=github-dark-blue&hide_border=true" />
+  <img width="70%" src="https://streak-stats.demolab.com?user=Maheswara660&theme=github-dark-blue&hide_border=true" />
 </p>
 
 ## 📈 Contribution Graph
