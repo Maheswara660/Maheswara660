@@ -120,7 +120,7 @@ I'm a passionate **Computer Science student** from **India 🇮🇳** with a kee
 
 ---
 
-## Profile Views
+## 📊 Profile Views
 <p align="center">
   <img width="400px" src="https://count.getloli.com/get/@Maheswara660?theme=rule34"></img>
 </p>
