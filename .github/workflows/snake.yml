@@ -22,14 +22,14 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # Generates a snake game from a github user's contributions graph, output a svg animation at <svg_out_path>
+      # Generates custom snake game animations matching profile neon palette (#05E8BA & #087EE1)
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#087EE1&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#05E8BA&color_dots=#0d1117,#00599C,#087EE1,#05E8BA,#3DDC84
 
       # Push the generated files to the output branch
       - name: Push github-contribution-grid-snake.svg to the output branch
