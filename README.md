@@ -164,8 +164,8 @@ data class Developer(
 ## 📊 Analytics & Lifetime Engineering Impact
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Maheswara660&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Lifetime Stats" />
-  <img height="175" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Maheswara660&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
+  <img height="175" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Maheswara660&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Lifetime Stats" />
+  <img height="175" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Maheswara660&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
 </p>
 
 <p align="center">

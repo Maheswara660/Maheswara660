@@ -1,9 +1,9 @@
 name: Generate Snake Contribution Animation
 
 on:
-  # Run automatically every 24 hours
+  # Run automatically every hour to capture contribution updates across repositories
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */1 * * *"
   
   # Allows to manually run the Job at any time
   workflow_dispatch:
@@ -30,6 +30,21 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#087EE1&palette=github
             dist/github-contribution-grid-snake-dark.svg?color_snake=#087EE1&palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Smoothly slows down snake animation speed by 2.2x for optimal visibility
+      - name: Adjust Snake Speed
+        run: |
+          python3 -c '
+          import re, glob
+          for path in glob.glob("dist/*.svg"):
+              with open(path, "r", encoding="utf-8") as f:
+                  content = f.read()
+              content = re.sub(r"(\d+)ms", lambda m: f"{int(int(m.group(1)) * 2.2)}ms", content)
+              with open(path, "w", encoding="utf-8") as f:
+                  f.write(content)
+          '
 
       # Push the generated files to the output branch
       - name: Push github-contribution-grid-snake.svg to the output branch
