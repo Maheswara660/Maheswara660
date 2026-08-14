@@ -33,7 +33,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Slows down snake animation speed by 3x to match a classic regular snake game pacing
+      # Slows down snake animation speed by 2.5x to match a classic regular snake game pacing
       - name: Adjust Snake Speed
         run: |
           python3 -c '
@@ -41,7 +41,7 @@ jobs:
           for path in glob.glob("dist/*.svg"):
               with open(path, "r", encoding="utf-8") as f:
                   content = f.read()
-              content = re.sub(r"(\d+)ms", lambda m: f"{int(int(m.group(1)) * 3)}ms", content)
+              content = re.sub(r"(\d+)ms", lambda m: f"{int(int(m.group(1)) * 2.5)}ms", content)
               with open(path, "w", encoding="utf-8") as f:
                   f.write(content)
           '
